@@ -30,6 +30,7 @@ RUN apt-get update \
 
     # Install Go tools
     && go get -u \
+        github.com/ramya-rao-a/go-outline \
         golang.org/x/tools/gopls \
         github.com/golangci/golangci-lint/cmd/golangci-lint \
         github.com/cweill/gotests/... \
